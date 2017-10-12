@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE7F6"
+    tools:context="com.practice.android.quiz.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyFont"
+            android:text="@string/ques_1" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyFont"
+            android:inputType="textCapCharacters"
+            android:textColorHint="#757575"
+            android:hint="@string/ans"
+            android:id="@+id/ans"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyFont"
+            android:text="@string/ins_1"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyFont"
+            android:text="@string/ques_2"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Absaloka Mine"
+                android:id="@+id/s1"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Bingham Canyon Mine"
+                android:id="@+id/s2"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Century Mine"
+                android:id="@+id/s3"/>
+    </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyFont"
+            android:text="@string/ques_3"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Gatimaan Express"
+                android:id="@+id/t1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Sealdah Duronto Express"
+                android:id="@+id/t2"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Howrah Rajdhani Express"
+                android:id="@+id/t3"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Kanpur Reverse Shatabdi"
+                android:id="@+id/t4"/>
+    </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyFont"
+            android:text="@string/ques_4"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Agni"
+                android:id="@+id/f1"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Prithvi"
+                android:id="@+id/f2"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Dhanush"
+                android:id="@+id/f3"/>
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Akash"
+                android:id="@+id/f4"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyFont"
+            android:textStyle="bold"
+            android:text="@string/ins_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyFont"
+            android:text="@string/ques_5"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Italy"
+                android:id="@+id/l1"/>
+
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Brazil"
+                android:id="@+id/l2"/>
+
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="China"
+            android:id="@+id/l3" />
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyFont"
+                android:text="Saudi Arabia"
+            android:id="@+id/l4"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:padding="2dp"
+            android:text="Submit"
+            android:textSize="14sp"
+            android:background="#9C27B0"
+            android:textColor="#FFFFFF"
+            android:id="@+id/submit"
+            android:onClick="submit_button"/>
+    </LinearLayout>
+
+</ScrollView>

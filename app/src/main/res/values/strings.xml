@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="ques_1">1. Which is the first web browser invented in 1990?</string>
+    <string name="ins_1">(Ques. 2-4) Choose one of the options.</string>
+    <string name="ques_2">2. Which is the largest man- made excavation in the world?</string>
+    <string name="ques_3">3. Which is India\'s first semi- high speed train? </string>
+    <string name="ques_4">4. India\'s first indigenous missile-</string>
+    <string name="ins_2">(Ques. 5) Choose one or more correct option(s).</string>
+    <string name="ques_5">5. Which countries are BRICS members?</string>
+    <string name="ans">Enter your response here</string>
+</resources>
+
